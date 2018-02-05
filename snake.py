@@ -5,13 +5,18 @@ import curses as window
 initscr(): Initialize the library. Return a WindowObject which represents the whole screen.
 curs_set(): Set the cursor state. visibility can be set to 0, 1, or 2, for invisible,
 """
-s = window.initscr()
-window.curs_set(0)
-sh, sw = s.getmaxyx()
 
-w = window.newwin(sh, sw, 0, 0)
-w.keypad(1)
-w.timeout(100)
+class snake(object):
+    def __init__(self, arg):
+
+
+def init_screen():
+    s = window.initscr()
+    window.curs_set(0)
+    sh, sw = s.getmaxyx()
+    w = window.newwin(sh, sw, 0, 0)
+    w.keypad(1)
+    w.timeout(100)
 
 
 # Snake initial position

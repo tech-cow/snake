@@ -9,7 +9,7 @@
 </p>
 
 
-> replica again, not my stuff, code improving and learning new API
+> Code Refactoring of a simple python game
 
 
 ## Dev Goals
