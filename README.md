@@ -1,5 +1,5 @@
 <h3 style="text-align:center;font-weight: 300;" align="center">
-  <img src="http://yuzhoujr.com/logo/snake.jpeg" width="400px">
+  <img src="http://yuzhoujr.com/logo/snake.jpeg" width="250px">
 </h3>
 
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 
-> replica again, not my stuff, coding improving and learning new API
+> replica again, not my stuff, code improving and learning new API
 
 
 ## Dev Goals
