@@ -37,10 +37,11 @@ key_option = [window.KEY_DOWN, window.KEY_UP, window.KEY_LEFT, window.KEY_RIGHT]
 while True:
     # Variable to store our next key input, return -1 if no inputs
     next_key = w.getch()
-
+    # Edge to set the next key.
     if next_key is not -1 and next_key in key_option:
         key = next_key
 
+    # Ternimating condition
     if snake[0][0] in [0, sh] or snake[0][1]  in [0, sw] or snake[0] in snake[1:]:
         window.endwin()
         quit()
