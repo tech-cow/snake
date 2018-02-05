@@ -29,12 +29,17 @@ snake = [
 food = [sh/2, sw/2]
 # Add food to the screen
 w.addch(food[0], food[1], window.ACS_DIAMOND)
-
+# Snake initial moving direction
 key = window.KEY_RIGHT
+#
+key_option = [window.KEY_DOWN, window.KEY_UP, window.KEY_LEFT, window.KEY_RIGHT]
 
 while True:
+    # Variable to store our next key input, return -1 if no inputs
     next_key = w.getch()
-    key = key if next_key == -1 else next_key
+
+    if next_key is not -1 and next_key in key_option:
+        key = next_key
 
     if snake[0][0] in [0, sh] or snake[0][1]  in [0, sw] or snake[0] in snake[1:]:
         window.endwin()
@@ -61,7 +66,7 @@ while True:
                 random.randint(1, sw-1)
             ]
             food = nf if nf not in snake else None
-        w.addch(food[0], food[1], window.ACS_PI)
+        w.addch(food[0], food[1], window.ACS_DIAMOND)
     else:
         tail = snake.pop()
         w.addch(tail[0], tail[1], ' ')
