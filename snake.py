@@ -34,6 +34,8 @@ key = window.KEY_RIGHT
 #
 key_option = [window.KEY_DOWN, window.KEY_UP, window.KEY_LEFT, window.KEY_RIGHT]
 
+
+# While loop isn't the most optimal decision here..
 while True:
     # Variable to store our next key input, return -1 if no inputs
     next_key = w.getch()
@@ -60,7 +62,7 @@ while True:
 
     snake.insert(0, new_head)
 
-    if snake[0] == food:
+    if snake[0] is food:
         food = None
         while food is None:
             nf = [
