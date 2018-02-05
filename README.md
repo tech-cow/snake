@@ -9,18 +9,22 @@
 </p>
 
 
-> Code Refactoring of a simple python game
+> A Refactoring Practice in Python
 
 
 ## Dev Goals
 
-🔥 meh, kinda bored
+🔥 Attempting Refactoring in Python
 
-⚡ fixing a coding competition's bug
+⚡ Learning **Python Class**.
 
-💥 maybe adding classes
+<!-- 🍇 🍈 🍉 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥 -->
+## Project Origin
+| Author          |   Source Code |
+| ------------- |:-------------:|
+| Engineerman     | ![🍉](https://github.com/ebrian/engineerman/blob/master/015/snake.py)|
 
-
+![](docs/carbon/original.png)
 
 ## License
 
