@@ -48,6 +48,7 @@ while True:
 
     new_head = [snake[0][0], snake[0][1]]
 
+    # This should be improving
     if key == window.KEY_DOWN:
         new_head[0] += 1
     if key == window.KEY_UP:
