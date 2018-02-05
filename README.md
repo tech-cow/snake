@@ -11,19 +11,19 @@
 
 > A Refactoring Practice in Python
 
-
 ## Dev Goals
 
 🔥 Attempting Refactoring in Python
 
-⚡ Learning **Python Class**.
+⚡ Consolidating **Python Class**.
 
 <!-- 🍇 🍈 🍉 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥 -->
 ## Project Origin
-| Author          |   Source Code |
+| Author          |   Video |
 | ------------- |:-------------:|
-| Engineerman     | ![🍉](https://github.com/ebrian/engineerman/blob/master/015/snake.py)|
+| Engineerman     | [🍉](https://www.youtube.com/watch?v=rbasThWVb-c&t=9s)|
 
+##### Orignal Source Code
 ![](docs/carbon/original.png)
 
 ## License

@@ -6,10 +6,15 @@ initscr(): Initialize the library. Return a WindowObject which represents the wh
 curs_set(): Set the cursor state. visibility can be set to 0, 1, or 2, for invisible,
 """
 
-class snake(object):
+
+
+class Snake(object):
     def __init__(self, arg):
 
+key_option = [window.KEY_DOWN, window.KEY_UP, window.KEY_LEFT, window.KEY_RIGHT]
 
+
+@staticmethod
 def init_screen():
     s = window.initscr()
     window.curs_set(0)
@@ -18,26 +23,28 @@ def init_screen():
     w.keypad(1)
     w.timeout(100)
 
+@staticmethod
+def init_snake():
+    # Snake initial position
+    # Snake Bodyparts
+    snk_x = sw/4
+    snk_y = sh/2
+    snake = [
+        [snk_y, snk_x],
+        [snk_y, snk_x-1],
+        [snk_y, snk_x-2]
+    ]
+    # Snake initial moving direction
+    key = window.KEY_RIGHT
 
-# Snake initial position
-snk_x = sw/4
-snk_y = sh/2
+@staticmethod
+def init_food():
+    # Food starting place
+    food = [sh/2, sw/2]
+    # Add food to the screen
+    w.addch(food[0], food[1], window.ACS_DIAMOND)
 
-# Snake Bodyparts
-snake = [
-    [snk_y, snk_x],
-    [snk_y, snk_x-1],
-    [snk_y, snk_x-2]
-]
 
-# Food starting place
-food = [sh/2, sw/2]
-# Add food to the screen
-w.addch(food[0], food[1], window.ACS_DIAMOND)
-# Snake initial moving direction
-key = window.KEY_RIGHT
-#
-key_option = [window.KEY_DOWN, window.KEY_UP, window.KEY_LEFT, window.KEY_RIGHT]
 
 
 # While loop isn't the most optimal decision here..
