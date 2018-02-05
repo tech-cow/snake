@@ -49,13 +49,13 @@ while True:
     new_head = [snake[0][0], snake[0][1]]
 
     # This should be improving
-    if key == window.KEY_DOWN:
+    if key is window.KEY_DOWN:
         new_head[0] += 1
-    if key == window.KEY_UP:
+    if key is window.KEY_UP:
         new_head[0] -= 1
-    if key == window.KEY_LEFT:
+    if key is window.KEY_LEFT:
         new_head[1] -= 1
-    if key == window.KEY_RIGHT:
+    if key is window.KEY_RIGHT:
         new_head[1] += 1
 
     snake.insert(0, new_head)
