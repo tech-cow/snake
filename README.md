@@ -9,7 +9,7 @@
 </p>
 
 
-> A Refactoring Practice in Python
+> A Refactoring Attempt of Engineerman's Snake Game
 
 ## Dev Goals
 
@@ -25,6 +25,9 @@
 
 ##### Orignal Source Code
 ![](docs/carbon/original.png)
+
+##### Refactored Source Code
+![](docs/carbon/comment.png)
 
 ## License
 
