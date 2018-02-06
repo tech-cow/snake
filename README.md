@@ -12,16 +12,16 @@
 > A Refactoring Attempt of Engineerman's Snake Game
 
 ## Demo
-![](docs/carbon/snake.png)
+![](docs/snake.png)
 
 ## Dev Goals
 
 🔥 Attempting Refactoring in Python
 
-⚡ Consolidating **Python Class**. `Failed` Due to no need of doing that....
+⚡ Consolidating **Python Class**. `Failed` Due to no reasons of doing that....
 
 <!-- 🍇 🍈 🍉 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥 -->
-## Project Origin
+## Origin
 | Author          |   Video |
 | ------------- |:-------------:|
 | Engineerman     | [🍉](https://www.youtube.com/watch?v=rbasThWVb-c&t=9s)|
@@ -29,6 +29,7 @@
 ##### Orignal Source Code
 ![](docs/carbon/original.png)
 
+## Refactor
 ##### Refactored Source Code
 ![](docs/carbon/comment.png)
 
@@ -37,7 +38,6 @@
 🌱 MIT 🌱
 
 ---
-
 > ![home](http://yuzhoujr.com/emoji/home.svg) [yuzhoujr.com](http://www.yuzhoujr.com) &nbsp;&middot;&nbsp;
 > ![github](http://yuzhoujr.com/emoji/github.svg)  [@yuzhoujr](https://github.com/yuzhoujr) &nbsp;&middot;&nbsp;
 > ![linkedin](http://yuzhoujr.com/emoji/linkedin.svg)  [@yuzhoujr](https://linkedin.com/in/yuzhoujr)
