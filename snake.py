@@ -34,10 +34,16 @@ window.addch(food[0], food[1], curses.ACS_DIAMOND)
 
 key = curses.KEY_RIGHT
 
-"""Logic"""
+"""Logic of the Snake
+
+:exit()_condition: when hitting max_x or max_y or snake's body|tail
+:api getch(): return -1 when no keyboard interupt.
+:api addch(): adding char in snake's body
+"""
 while True:
     next_key = window.getch()
-    key = key if next_key == -1 else next_key
+    if next_key is not -1 and next_key in direction_option:
+        key = next_key
 
     if snake[0][0] in [0, screen_h] or snake[0][1]  in [0, screen_w] or snake[0] in snake[1:]:
         curses.endwin()
@@ -64,7 +70,7 @@ while True:
                 random.randint(1, screen_w-1)
             ]
             food = nf if nf not in snake else None
-        window.addch(food[0], food[1], curses.ACS_CKBOARD)
+        window.addch(food[0], food[1], curses.ACS_DIAMOND)
     else:
         tail = snake.pop()
         window.addch(tail[0], tail[1], ' ')
