@@ -11,11 +11,14 @@
 
 > A Refactoring Attempt of Engineerman's Snake Game
 
+## Demo
+![](docs/carbon/snake.png)
+
 ## Dev Goals
 
 🔥 Attempting Refactoring in Python
 
-⚡ Consolidating **Python Class**.
+⚡ Consolidating **Python Class**. `Failed` Due to no need of doing that....
 
 <!-- 🍇 🍈 🍉 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥 -->
 ## Project Origin
